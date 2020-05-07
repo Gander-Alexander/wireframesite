@@ -1,0 +1,56 @@
+html {
+    background-color: wheat;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.button {
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    clip-path: circle();
+    background-color: rgb(194, 113, 37);
+    padding: 3em;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(167, 97, 32);
+    cursor: pointer;
+}
+
+
+
+.pc-wireframe, .mobile-wireframe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pc-wireframe {
+    border-bottom: 20px solid rgb(194, 113, 37);
+}
+.pc {
+    width: 80em;
+    margin-bottom: 2em;
+}
+
+
+
+.mobile {
+    width: 20em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+}
